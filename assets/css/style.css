@@ -12,8 +12,6 @@ p {
 }
 p {
   font-size: 1em;
-  max-width: 100%;
-  width: 400px;
 }
 header h3,
 div h1,
@@ -27,7 +25,15 @@ main h3 {
   padding: 0;
   box-sizing: border-box;
 }
+article {
+  margin: 25vh auto;
+}
+ul {
+  margin-right: auto;
+  margin: 10vh auto;
+}
 header {
+  height: 100vh;
   padding: 0 2%;
   background-image: linear-gradient(
     to right top,
@@ -38,16 +44,15 @@ header {
     #4e8397
   );
   color: white;
-  max-width: 100%;
 }
 .logo {
   width: 2px;
   letter-spacing: 3px;
 }
-
 .centerHP {
   max-width: 100%;
-  width: 235px;
+  width: 135px;
+  width: max-content;
   margin: 0 auto;
   text-align: center;
   cursor: pointer;
