@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Gilda Display";
+  src: url(../fonts/Gilda_Display/GildaDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Maven Pro";
+  src: url(../fonts/Maven_Pro/MavenPro-VariableFont_wght.ttf);
+}
+header a,
+p {
+  font-family: "Maven Pro";
+}
+p {
+  font-size: 1em;
+  max-width: 100%;
+  width: 400px;
+}
+header h3,
+div h1,
+main h3 {
+  font-family: "Gilda Display";
+  font-size: 3rem;
+  font-weight: bold;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 0 2%;
+  background-image: linear-gradient(
+    to right top,
+    #fefedf,
+    #c9e1c6,
+    #97c3b4,
+    #6ca4a7,
+    #4e8397
+  );
+  color: white;
+  max-width: 100%;
+}
+.logo {
+  width: 2px;
+  letter-spacing: 3px;
+}
+
+.centerHP {
+  max-width: 100%;
+  width: 235px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to right top,
+    #4d8076,
+    #699e93,
+    #87bcb1,
+    #a5dccf,
+    #c4fcef
+  );
+  box-shadow: 0 0 15px 15px #699e93;
+}
+.centerHP:hover {
+  background-image: linear-gradient(
+    to left bottom,
+    #4d8076,
+    #699e93,
+    #87bcb1,
+    #a5dccf,
+    #c4fcef
+  );
+}
+ul li {
+  text-align: right;
+  list-style-type: none;
+  margin-left: auto;
+  padding: 2px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+ul a:hover {
+  color: beige;
+  text-decoration: underline;
+  transition: 1s;
+}
+main {
+  padding: 0 10%;
+}
+.backgroundImage {
+  padding-top: 100px;
+}
+.backgroundImage img {
+  width: 500px;
+  max-width: 100%;
+}
+main h1 {
+  margin-bottom: 10%;
+}
+.pmU img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+main p:nth-of-type(2) {
+  margin-bottom: 30%;
+}
+.agrotechS img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 25%;
+}
+.namuCursos img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-top: 25%;
+}
+.namuCursos p {
+  margin-bottom: 5%;
+}
