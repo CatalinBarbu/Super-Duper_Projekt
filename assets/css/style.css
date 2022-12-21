@@ -25,15 +25,7 @@ main h3 {
   padding: 0;
   box-sizing: border-box;
 }
-article {
-  margin: 25vh auto;
-}
-ul {
-  margin-right: auto;
-  margin: 10vh auto;
-}
 header {
-  height: 100vh;
   padding: 0 2%;
   background-image: linear-gradient(
     to right top,
